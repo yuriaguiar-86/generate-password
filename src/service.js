@@ -2,7 +2,7 @@ const DecToHex = (number) => {
     let i = 0;
     let base = 16;
     let value = '';
-    let digit = new Array();
+    let digit = [];
     
     while(number !== 0) {
         i++;
