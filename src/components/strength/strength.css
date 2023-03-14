@@ -1,0 +1,23 @@
+.container_strength {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    justify-content: space-between;
+}
+
+.container_strength p {
+    color: var(--grey);
+}
+
+.low {
+    color: var(--red);
+}
+
+.medium {
+    color: var(--yellow);
+}
+
+.strong {
+    color: var(--green);
+}
